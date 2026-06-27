@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adnan Haque | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#9333ea);
+}
+
+header h1{
+font-size:55px;
+}
+
+header p{
+margin-top:10px;
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 30px;
+background:white;
+color:#2563eb;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+section{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+margin-top:20px;
+border-radius:15px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#111827;
+}
+</style>
+
 </head>
-<body style="font-family:Arial;text-align:center;background:#f2f2f2;">
-    <h1>Welcome to My Website!</h1>
-    <p>Made by Adnan 😊</p>
-    <button onclick="alert('Thanks for visiting!')">Click Me</button>
+
+<body>
+
+<header>
+<h1>Hi, I'm Adnan 👋</h1>
+<p>Student | Learning Web Development | Future Freelancer</p>
+
+<a class="btn" href="#about">Know More</a>
+
+</header>
+
+<section id="about">
+
+<div class="card">
+<h2>About Me</h2>
+
+<p>
+Hello! I'm Adnan. I'm learning HTML, CSS and JavaScript.
+I want to become a professional web developer and earn money online through freelancing.
+</p>
+
+</div>
+
+<div class="card">
+<h2>My Skills</h2>
+
+<ul>
+<li>✔ HTML</li>
+<li>✔ CSS (Learning)</li>
+<li>✔ JavaScript (Learning)</li>
+<li>✔ Gaming</li>
+<li>✔ Video Editing</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>My Goal</h2>
+
+<p>
+Build amazing websites and become a successful freelancer.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Made with ❤️ by Adnan Haque
+
+</footer>
+
 </body>
 </html>
